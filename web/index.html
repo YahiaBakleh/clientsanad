@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_web_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>flutter_web_app</title>
+  
+  <link rel="manifest" href="manifest.json">
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <!-- Firebase Configuration -->
+      <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBohq01xBDXPSI9FkluMggzi5CAGn9wTx8",
+        authDomain: "clientsanad.firebaseapp.com",
+        databaseURL: "https://clientsanad-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "clientsanad",
+        storageBucket: "clientsanad.appspot.com",
+        messagingSenderId: "33878588218",
+        appId: "1:33878588218:android:74f97c0746215652ca6e03",
+        measurementId: "G-...",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

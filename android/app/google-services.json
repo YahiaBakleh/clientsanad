@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "33878588218",
+    "firebase_url": "https://clientsanad-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "clientsanad",
+    "storage_bucket": "clientsanad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33878588218:android:74f97c0746215652ca6e03",
+        "android_client_info": {
+          "package_name": "com.yahiabakleh.clientsanad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33878588218-h7r3o3esq103an8eu8oi4e8ss49u4p1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBohq01xBDXPSI9FkluMggzi5CAGn9wTx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33878588218-h7r3o3esq103an8eu8oi4e8ss49u4p1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
