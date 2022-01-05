@@ -143,7 +143,8 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
 
     Map userInfoMap = {
       "user_id": userCurrentInfo?.id,
-      "spacialist_id": "waiting",
+//       "spacialist_id": "waiting",
+      "specialist_id": "waiting",
       //TODO: Now we had only on door cash as payment method later this should take an id for payment_method attribute
       "payment_method": "cash",
       "session_location": sessionOnMap,
@@ -766,7 +767,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
   }
 
   Future<void> getPlaceDirection() async {
-    //HINT: initialPos is where spacialist or doctor will come or accept the request
+    //HINT: initialPos is where specialist or doctor will come or accept the request
     // get pickUpLocation as initialPos and sessionLocation as sessionPos
     var initialPos =
         Provider
